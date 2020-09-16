@@ -65,11 +65,11 @@ public class Game implements Serializable {
 		this.title = title;
 	}
 
-	public Platform getPlataform() {
+	public Platform getPlatform() {
 		return platform;
 	}
 
-	public void setPlataform(Platform plataform) {
+	public void setPlatform(Platform plataform) {
 		this.platform = plataform;
 	}
 
