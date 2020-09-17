@@ -1,9 +1,13 @@
 package com.devsuperior.com.devsuperior.dto;
 
+import java.io.Serializable;
+
 import com.devsuperior.com.devsuperior.entities.Game;
 import com.devsuperior.com.devsuperior.entities.enums.Platform;
 
-public class GameDTO {
+public class GameDTO implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	private Long id;
 	private String title;
